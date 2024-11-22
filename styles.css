@@ -1,0 +1,190 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+}
+
+.container-top {
+  background-color: #1f2937;
+}
+
+.navbar {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 200;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  margin-right: 200px;
+  gap: 30px;
+}
+
+.header-link {
+  cursor: pointer;
+}
+
+.header-logo {
+  margin-left: 138px;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  padding-top: 100px;
+  color: #f9faf8;
+  justify-content: space-around;
+  height: 450px;
+}
+
+.hero-main > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-main > p {
+  color: #e5e7eb;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.hero-img {
+  margin-right: 50px;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    margin-bottom: 50px;
+}
+
+.info-container{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    justify-content: center;
+}
+
+.info{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    background-image: url('https://th.bing.com/th/id/OIP.bsE8QnyrEIV7sojdKNeoyQHaHK?rs=1&pid=ImgDetMain');
+    background-size: contain;
+}
+
+.content-container{
+    display: flex;
+    gap: 50px;
+}
+
+
+/* From Uiverse.io by faizanullah1999 */
+.primary-button {
+  font-family: "Ropa Sans", sans-serif;
+  /* font-family: 'Valorant', sans-serif; */
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border: 1px solid #166bc0;
+  padding: 0.8rem 2.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-color: #0c68c3;
+  background-size: 200%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position, border, color;
+  position: relative;
+  z-index: 1;
+}
+
+.primary-button:hover {
+  border: 1px solid #ff4655;
+  color: white;
+  background-position: 40%;
+}
+
+.primary-button:before {
+  content: "";
+  position: absolute;
+  background-color: #0e1822;
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -1px;
+  left: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.primary-button:hover:before {
+  background-color: white;
+}
+
+.primary-button:hover:after {
+  background-color: white;
+}
+
+.primary-button:after {
+  content: "";
+  position: absolute;
+  background-color: #ff4655;
+  width: 0.3rem;
+  height: 0.3rem;
+  bottom: -1px;
+  right: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.button-borders {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button-borders:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid #0e1822;
+  border-bottom: 0px;
+  /* opacity: 0.3; */
+}
+
+.button-borders:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid #0e1822;
+  border-top: 0px;
+  /* opacity: 0.3; */
+  z-index: 0;
+}
+
+.shape {
+  fill: #0e1822;
+}
