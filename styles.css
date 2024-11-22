@@ -95,7 +95,59 @@ body {
     gap: 50px;
 }
 
+.quote-container{
+  display: flex;
+  background-color: #e5efeb;
+  justify-content: center;
+  padding: 100px;
+}
 
+.quote-text{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937
+}
+
+.emoji{
+  font-style: normal;
+}
+
+.quote-author{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.cta-container{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+}
+
+.cta{
+  display: flex;
+  align-items: baseline;
+  gap: 300px;
+  justify-content: center;
+  background-color: #3882f6;
+  padding: 50px;
+  width: 70%;
+  height: 100px;
+  border-radius: 20px;
+  color: #e5efeb;
+}
+
+.footer{
+  display: flex;
+  background-color: #1f2937;
+  color: #e5efeb;
+  padding: 30px;
+  justify-content: center;
+  font-size: 18px;
+}
 /* From Uiverse.io by faizanullah1999 */
 .primary-button {
   font-family: "Ropa Sans", sans-serif;
