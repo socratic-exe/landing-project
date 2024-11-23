@@ -87,7 +87,7 @@ body {
   border: 5px solid #3882f6;
   border-radius: 10px;
   background-image: url("https://th.bing.com/th/id/OIP.bsE8QnyrEIV7sojdKNeoyQHaHK?rs=1&pid=ImgDetMain");
-  background-size: fill;
+  background-size: cover;
 }
 
 .content-container {
