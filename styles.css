@@ -59,75 +59,75 @@ body {
   margin-right: 50px;
 }
 
-.random-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
 }
 
-.info-header{
-    font-size: 36px;
-    font-weight: 900;
-    color:#1f2937;
-    margin-bottom: 50px;
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 50px;
 }
 
-.info-container{
-    display: flex;
-    width: 100%;
-    gap: 100px;
-    justify-content: center;
+.info-container {
+  display: flex;
+  width: 100%;
+  gap: 100px;
+  justify-content: center;
 }
 
-.info{
-    width: 150px;
-    height: 150px;
-    border: 5px solid #3882f6;
-    border-radius: 10px;
-    background-image: url('https://th.bing.com/th/id/OIP.bsE8QnyrEIV7sojdKNeoyQHaHK?rs=1&pid=ImgDetMain');
-    background-size: contain;
+.info {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.bsE8QnyrEIV7sojdKNeoyQHaHK?rs=1&pid=ImgDetMain");
+  background-size: fill;
 }
 
-.content-container{
-    display: flex;
-    gap: 50px;
+.content-container {
+  display: flex;
+  gap: 50px;
 }
 
-.quote-container{
+.quote-container {
   display: flex;
   background-color: #e5efeb;
   justify-content: center;
   padding: 100px;
 }
 
-.quote-text{
+.quote-text {
   font-size: 36px;
   font-style: italic;
   font-weight: light;
-  color: #1f2937
+  color: #1f2937;
 }
 
-.emoji{
+.emoji {
   font-style: normal;
 }
 
-.quote-author{
+.quote-author {
   display: flex;
   justify-content: flex-end;
   font-weight: 900;
   font-size: 28px;
 }
 
-.cta-container{
+.cta-container {
   display: flex;
   justify-content: center;
   height: 300px;
   align-items: center;
 }
 
-.cta{
+.cta {
   display: flex;
   align-items: baseline;
   gap: 300px;
@@ -140,7 +140,7 @@ body {
   color: #e5efeb;
 }
 
-.footer{
+.footer {
   display: flex;
   background-color: #1f2937;
   color: #e5efeb;
