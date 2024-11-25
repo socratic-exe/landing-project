@@ -41,6 +41,7 @@ body {
   color: #f9faf8;
   justify-content: space-around;
   height: 450px;
+  flex: 1;
 }
 
 .hero-main > h1 {
@@ -56,7 +57,12 @@ body {
 }
 
 .hero-img {
+  display: flex;
   margin-right: 50px;
+  width: 675px;
+  height: 450px;
+  flex: 1;
+  flex-basis: 100px;
 }
 
 .random-info {
@@ -76,9 +82,8 @@ body {
 
 .info-container {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
   gap: 100px;
-  justify-content: center;
 }
 
 .info {
@@ -86,8 +91,6 @@ body {
   height: 150px;
   border: 5px solid #3882f6;
   border-radius: 10px;
-  background-image: url("https://th.bing.com/th/id/OIP.bsE8QnyrEIV7sojdKNeoyQHaHK?rs=1&pid=ImgDetMain");
-  background-size: cover;
 }
 
 .content-container {
