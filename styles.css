@@ -39,15 +39,14 @@ body {
   display: flex;
   padding-top: 100px;
   color: #f9faf8;
-  justify-content: space-around;
   height: 450px;
-  flex: 1;
+  margin-left: 150px;
+  gap: 100px;
 }
 
 .hero-main > h1 {
   font-size: 48px;
   font-weight: 900;
-  margin: 0;
 }
 
 .hero-main > p {
